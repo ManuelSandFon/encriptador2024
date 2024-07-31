@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-cr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon" href="/Style/favicon.ico"/>
+    <title>Encriptador MS</title>
+    <link rel="stylesheet" href="Style/style.css">    
+</head>
+<body>
+    <!--Encabezado Logo-->
+    <header class="header">
+        <nav class="header__menu">
+            <a href="#" rel="">
+            <img src="./Style/Logo.png" alt="Logo de Alura" class="header__menu__logo">
+            </a>
+        </nav>        
+    </header>
+    <!--Cuerpo de la página-->
+    <main class="presentacion">
+        <!--Primera Sección-->
+        <section class="presentación__encriptador">
+            <textarea class="presentacion__encriptador__texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class=presentacion__encriptador__capsula__aviso>
+                <div class="presentacion__encriptador__aviso">
+                    <img src="./Style/Frame 1.png" alt="Frame Aviso" class="presentacion__encriptador__aviso__logito">
+                    <p class="presentacion__encriptador__aviso__texto">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <button type="submit" class= "limpieza">Limpiar</button>
+                            
+            </div>
+            <div class="presentacion__encriptador__botones">
+                <button type="submit" class="presentacion__encriptador__botones__encriptar">Encriptar</button>
+                <button type="submit" class="presentacion__encriptador__botones__desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <!--Segunda Sección-->
+        <section class="presentacion__caja-de-resultado">
+            <textarea type="mensaje" class="presentacion__caja-de-resultado__area__evaluar" readonly></textarea>
+                <div class="presentacion__caja-de-resultado__area">
+                    <img src="Style/Muñeco.png" alt="Imagen del Muñeco" class="presentacion__caja-de-resultado__columna__muñeco">
+                    <div class="presentacion__caja-de-resultado__columna__texto">
+                    <p class="presentacion__caja-de-resultado__columna__texto__sin-texto">Ningún mensaje fue encontrado</p>
+                    <p class="presentacion__caja-de-resultado__columna__texto__ingrese-texto">Ingrese el texto que desees encriptar o desencriptar</p>
+                    </div>
+                    <button type="submit" class="presentacion__caja-de-resultado__dos__copiar">Copiar</button>                    
+                </div>
+            
+        </section>
+    </main>
+    <!--Pie de página-->
+    <footer class="footer">
+        <p>Encriptador de texto desarrollado por Manuel Sandoval Fonseca-2024</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
