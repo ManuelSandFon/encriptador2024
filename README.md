@@ -1,5 +1,5 @@
-# <span style="color:blue">Encriptador de Texto</span>
-![Imagen](Style/Imagen de readme.png)
+# <span>Encriptador de Texto</span>
+[![Sin-t-tulo.png](https://i.postimg.cc/6qY0BKgQ/Sin-t-tulo.png)](https://postimg.cc/SYY8GBy0)
 ## Desarrollado por Manuel Sandoval Fonseca
 
 ### Descripción
